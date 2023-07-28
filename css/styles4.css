@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: url(../image/a5.jpg) center top/cover;
+    height: 100px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.2);
+}
+
+header{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 17px;
+    color: white;
+}
+
+.entrance{
+    margin-right: 10%;
+    background-color: blueviolet;
+    border-radius: 200px;
+    box-shadow: 0 0 10px;
+    padding: 1%;
+    display: inline-block;
+    color: white;
+}
+
+.registry{
+    background-color: darkviolet;
+    border-radius: 200px;
+    box-shadow: 0 0 10px;
+    padding: 1%;
+    display: inline-block;
+    color: white;
+}
+span {
+    color: maroon;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+    transition: 0.2s;
+}
+
+a:active {
+    color: darkviolet;
+}
+
+.menu{
+    padding: 1%;
+    display: none;
+}
+
+.logo:hover .menu{
+    display: block;
+    position: absolute;
+    background-color: white;
+}
+
+li{
+    margin-bottom: 8%;
+    list-style: none;
+}
+
+li:hover{
+    background: darkviolet;
+    border-radius: 2px;
+    color: white;
+    transition: 0.2s;
+}
+
+.главная{
+    background: url(../image/flag.png) no-repeat center top/cover;
+    margin: -1px;
+    width: 50px;
+    height: 30px;
+    box-shadow: 0 0 8px;
+}
+
+.поле{
+    margin: 8% auto 5% auto;
+    width: 45%;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 17px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+input{
+    width: 70%;
+    font-size: 20px;
+    margin-bottom: 5%;
+    margin-top: 7%;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 2000px) {
+    ::placeholder {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    ::placeholder {
+        font-size: 10px;
+    }
+}
+
+
+
+
